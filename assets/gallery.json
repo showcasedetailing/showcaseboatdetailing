@@ -62,5 +62,53 @@
     "service": "Wash & Wax",
     "alt": "Teal Strike boat transom on trailer, polished",
     "focus": "50% 40%"
+  },
+  {
+    "src": "assets/boat-31.jpg",
+    "group": "Exterior",
+    "title": "Yamaha outboard, detailed",
+    "service": "Boat Wash",
+    "alt": "Close-up of a detailed blue Yamaha outboard motor",
+    "focus": "50% 45%"
+  },
+  {
+    "src": "assets/boat-32.jpg",
+    "group": "Exterior",
+    "title": "Blue hull on the trailer",
+    "service": "Wash & Wax",
+    "alt": "Glossy blue center console hull on a trailer after wash and wax",
+    "focus": "50% 45%"
+  },
+  {
+    "src": "assets/boat-33.jpg",
+    "group": "Interior",
+    "title": "Helm with Garmin electronics",
+    "service": "Boat Wash",
+    "alt": "Clean center console helm with Garmin electronics",
+    "focus": "50% 45%"
+  },
+  {
+    "src": "assets/boat-34.jpg",
+    "group": "Interior",
+    "title": "Stern deck and outboard",
+    "service": "Boat Wash",
+    "alt": "Boat stern deck with deck pads and Yamaha outboard, detailed",
+    "focus": "50% 45%"
+  },
+  {
+    "src": "assets/boat-35.jpg",
+    "group": "Exterior",
+    "title": "Twin Yamaha outboards",
+    "service": "Boat Wash",
+    "alt": "Twin white Yamaha outboards on a clean transom",
+    "focus": "50% 45%"
+  },
+  {
+    "src": "assets/boat-36.jpg",
+    "group": "Interior",
+    "title": "Cockpit with T-top",
+    "service": "Boat Wash",
+    "alt": "Spotless center console cockpit with T-top under cover",
+    "focus": "50% 45%"
   }
 ]
