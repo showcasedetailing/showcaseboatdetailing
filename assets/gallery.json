@@ -230,5 +230,13 @@
     "service": "Wash & Wax",
     "alt": "Teal Strike boat transom on trailer, polished",
     "focus": "50% 40%"
+  },
+  {
+    "src": "assets/buff-shine.jpg",
+    "group": "Exterior",
+    "title": "Sailfish — bow, full gloss",
+    "service": "Buff & Shine",
+    "alt": "Cream Sailfish center console bow with glossy hull after Buff & Shine",
+    "focus": "50% 45%"
   }
 ]
