@@ -3,210 +3,215 @@
     "src": "assets/boat-01.jpg",
     "group": "Exterior",
     "title": "Center console cockpit",
-    "service": "Full detail",
+    "service": "Wash & Wax",
     "alt": "Detailed cockpit of a white center console boat"
   },
   {
     "src": "assets/boat-02.jpg",
     "group": "Exterior",
     "title": "Transom & outboard",
-    "service": "Wash & protect",
+    "service": "Wash & Wax",
     "alt": "Clean transom and outboard motor after detailing"
   },
   {
     "src": "assets/boat-03.jpg",
     "group": "Interior & Helm",
     "title": "Helm station",
-    "service": "Interior detail",
+    "service": "Wash & Wax",
     "alt": "Boat helm with wheel and gauges, detailed"
   },
   {
     "src": "assets/boat-04.jpg",
     "group": "Exterior",
     "title": "Bow deck",
-    "service": "Wash & protect",
+    "service": "Wash & Wax",
     "alt": "Spotless bow deck of a center console boat"
   },
   {
     "src": "assets/boat-05.jpg",
     "group": "Exterior",
     "title": "Blue-hull center console",
-    "service": "Buff & wax",
-    "alt": "Blue and white center console boat with glossy hull"
+    "service": "Buff & Shine",
+    "alt": "Blue and white center console boat with glossy hull",
+    "focus": "50% 40%"
   },
   {
     "src": "assets/boat-06.jpg",
     "group": "Exterior",
     "title": "Center console on the trailer",
-    "service": "Wash & protect",
+    "service": "Buff & Shine",
     "alt": "Pale yellow center console boat on a trailer"
   },
   {
     "src": "assets/boat-07.jpg",
     "group": "Exterior",
     "title": "Cream center console",
-    "service": "Buff & wax",
-    "alt": "Cream-colored center console boat after buffing"
+    "service": "Buff & Shine",
+    "alt": "Cream-colored center console boat after buffing",
+    "focus": "50% 42%"
   },
   {
     "src": "assets/boat-08.jpg",
     "group": "Exterior",
     "title": "Blue hull, full gloss",
-    "service": "Buff & wax",
-    "alt": "Blue hull center console showing deep gloss reflections"
+    "service": "Buff & Shine",
+    "alt": "Blue hull center console showing deep gloss reflections",
+    "focus": "50% 45%"
   },
   {
     "src": "assets/boat-09.jpg",
     "group": "Close-ups",
     "title": "Mirror-gloss topsides",
-    "service": "Polish & protect",
+    "service": "Wash & Wax",
     "alt": "Close-up of polished white topsides with mirror gloss"
   },
   {
     "src": "assets/boat-10.jpg",
     "group": "Exterior",
-    "title": "Strike \u2014 teal hull",
-    "service": "Polish & protect",
+    "title": "Strike — teal hull",
+    "service": "Buff & Shine",
     "alt": "Teal Strike boat hull with restored shine"
   },
   {
     "src": "assets/boat-11.jpg",
     "group": "Exterior",
     "title": "Yamaha at the dock",
-    "service": "Wash & protect",
+    "service": "Boat Wash",
     "alt": "White Yamaha boat floating at the dock"
   },
   {
     "src": "assets/boat-12.jpg",
     "group": "Close-ups",
     "title": "Deep gloss finish",
-    "service": "Buff & wax",
+    "service": "Ceramic",
     "alt": "Close-up of dark glossy boat finish"
   },
   {
     "src": "assets/boat-13.jpg",
     "group": "Interior & Helm",
     "title": "Cockpit seating refresh",
-    "service": "Interior detail",
+    "service": "Wash & Wax",
     "alt": "Boat cockpit seating cleaned and refreshed"
   },
   {
     "src": "assets/boat-14.jpg",
     "group": "Exterior",
     "title": "Grady-White dual outboard",
-    "service": "Full detail",
+    "service": "Wash & Wax",
     "alt": "White Grady-White boat with twin outboards, fully detailed"
   },
   {
     "src": "assets/boat-15.jpg",
     "group": "Exterior",
     "title": "Grady-White stern quarter",
-    "service": "Full detail",
+    "service": "Wash & Wax",
     "alt": "Stern view of detailed Grady-White boat"
   },
   {
     "src": "assets/boat-16.jpg",
     "group": "Interior & Helm",
     "title": "Console & seating",
-    "service": "Interior detail",
+    "service": "Wash & Wax",
     "alt": "Boat console and seating area after interior detailing"
   },
   {
     "src": "assets/boat-17.jpg",
     "group": "Exterior",
     "title": "Hull side, dialed in",
-    "service": "Buff & wax",
+    "service": "Buff & Shine",
     "alt": "White boat hull side with clean glossy finish"
   },
   {
     "src": "assets/boat-18.jpg",
     "group": "Interior & Helm",
     "title": "Helm & windshield",
-    "service": "Interior detail",
+    "service": "Wash & Wax",
     "alt": "Boat helm with windshield, cleaned inside and out"
   },
   {
     "src": "assets/boat-19.jpg",
     "group": "Exterior",
-    "title": "Key West \u2014 port side",
-    "service": "Buff & wax",
+    "title": "Key West — port side",
+    "service": "Buff & Shine",
     "alt": "Key West boat hull side on trailer"
   },
   {
     "src": "assets/boat-20.jpg",
     "group": "Exterior",
-    "title": "Key West \u2014 gloss restored",
-    "service": "Buff & wax",
-    "alt": "Key West hull with restored gloss finish"
+    "title": "Key West — gloss restored",
+    "service": "Ceramic",
+    "alt": "Key West hull with restored gloss finish",
+    "focus": "50% 40%"
   },
   {
     "src": "assets/boat-21.jpg",
     "group": "Exterior",
     "title": "Cruiser under cover",
-    "service": "Wash & protect",
-    "alt": "White boat on trailer in covered storage, washed"
+    "service": "Buff & Shine",
+    "alt": "White boat on trailer in covered storage, washed",
+    "focus": "50% 25%"
   },
   {
     "src": "assets/boat-22.jpg",
     "group": "Interior & Helm",
     "title": "Hardware detail",
-    "service": "Interior detail",
+    "service": "Wash & Wax",
     "alt": "Close-up of cleaned seat hinge and upholstery"
   },
   {
     "src": "assets/boat-23.jpg",
     "group": "Close-ups",
     "title": "Stripe & shine",
-    "service": "Polish & protect",
+    "service": "Buff & Shine",
     "alt": "Close-up of polished hull stripe and glossy finish"
   },
   {
     "src": "assets/boat-24.jpg",
     "group": "Close-ups",
     "title": "Waterline gloss",
-    "service": "Polish & protect",
+    "service": "Buff & Shine",
     "alt": "Glossy waterline and hull stripe close-up"
   },
   {
     "src": "assets/boat-25.jpg",
     "group": "Interior & Helm",
     "title": "Hatch & hardware",
-    "service": "Interior detail",
+    "service": "Wash & Wax",
     "alt": "Boat hatch and hardware cleaned and detailed"
   },
   {
     "src": "assets/boat-26.jpg",
     "group": "Close-ups",
     "title": "Cream hull, hand-finished",
-    "service": "Buff & wax",
+    "service": "Buff & Shine",
     "alt": "Close-up of cream boat hull with hand-finished gloss"
   },
   {
     "src": "assets/boat-27.jpg",
     "group": "Close-ups",
     "title": "Gloss topsides",
-    "service": "Wash & protect",
+    "service": "Wash & Wax",
     "alt": "White topsides with clean glossy finish"
   },
   {
     "src": "assets/boat-28.jpg",
     "group": "Interior & Helm",
     "title": "Simrad helm",
-    "service": "Interior detail",
+    "service": "Wash & Wax",
     "alt": "Center console helm with Simrad electronics, detailed"
   },
   {
     "src": "assets/boat-29.jpg",
     "group": "Exterior",
     "title": "Bow, ready to launch",
-    "service": "Wash & protect",
+    "service": "Boat Wash",
     "alt": "White boat bow deck ready for the water"
   },
   {
     "src": "assets/boat-30.jpg",
     "group": "Exterior",
-    "title": "Strike \u2014 transom",
-    "service": "Polish & protect",
+    "title": "Strike — transom",
+    "service": "Buff & Shine",
     "alt": "Teal Strike boat transom on trailer, polished"
   }
 ]

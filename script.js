@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const grid = document.getElementById("gallery-grid");
   if (grid) initGallery(grid);
 
-  // Quote form -> compose a text message to the business
+  // Quote form -> compose a text message or email to the business
   const form = document.getElementById("quote-form");
   if (form) {
     form.addEventListener("submit", (e) => {
@@ -30,14 +30,20 @@ document.addEventListener("DOMContentLoaded", () => {
         `Name: ${data.get("name")}`,
         `My phone: ${data.get("phone")}`,
         data.get("email") ? `Email: ${data.get("email")}` : null,
-        `Boat: ${data.get("boat") || "—"}`,
+        `Boat: ${data.get("make") || "—"}`,
+        data.get("length") ? `Length: ${data.get("length")} ft` : null,
+        data.get("city") ? `City/marina: ${data.get("city")}` : null,
         `Service: ${data.get("service")}`,
         data.get("message") ? `Details: ${data.get("message")}` : null
       ].filter(Boolean);
-      const sms = `sms:+13863153633?body=${encodeURIComponent(lines.join("\n"))}`;
+      const body = lines.join("\n");
+      const sms = `sms:+13863153633?body=${encodeURIComponent(body)}`;
+      const email = `mailto:booking@showcaseboatdetailing.com?subject=${encodeURIComponent("Quote request — " + (data.get("name") || "boat detailing"))}&body=${encodeURIComponent(body + "\n\n(Attach boat photos before sending.)")}`;
       const done = document.getElementById("quote-done");
-      const link = document.getElementById("sms-link");
-      if (link) link.href = sms;
+      const smsLink = document.getElementById("sms-link");
+      const emailLink = document.getElementById("email-link");
+      if (smsLink) smsLink.href = sms;
+      if (emailLink) emailLink.href = email;
       if (done) {
         done.hidden = false;
         done.scrollIntoView({ behavior: "smooth", block: "center" });
@@ -76,8 +82,9 @@ async function initGallery(grid) {
       const fig = document.createElement("figure");
       fig.className = "g-item";
       fig.tabIndex = 0;
+      const focus = item.focus ? ` style="object-position:${item.focus};"` : "";
       fig.innerHTML = `
-        <img src="${item.src}" alt="${item.alt}" loading="lazy">
+        <img src="${item.src}" alt="${item.alt}" loading="lazy"${focus}>
         <figcaption class="g-cap"><span>${item.service}</span><strong>${item.title}</strong></figcaption>`;
       fig.addEventListener("click", () => openLightbox(shown, shown.indexOf(item)));
       fig.addEventListener("keydown", (e) => {

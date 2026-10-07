@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Get a Quote — Showcase Boat Detailing</title>
-  <meta name="description" content="Request a free, photo-based quote for your boat detailing.">
+  <meta name="description" content="Request a free, photo-based quote for your boat detailing. Text or email — we reply with a firm price.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
@@ -60,37 +60,53 @@
               <input id="phone" name="phone" type="tel" required placeholder="(386) 000-0000">
             </div>
             <div class="field full">
-              <label for="email">Email <span class="muted" style="font-weight: 400;">(optional)</span></label>
+              <label for="email">Email</label>
               <input id="email" name="email" type="email" placeholder="you@example.com">
             </div>
             <div class="field">
-              <label for="boat">Boat (make, model, length)</label>
-              <input id="boat" name="boat" type="text" placeholder="e.g. 24' Sea Ray Sundancer">
+              <label for="make">Boat make &amp; model</label>
+              <input id="make" name="make" type="text" placeholder="e.g. 24' Sea Ray Sundancer">
+            </div>
+            <div class="field">
+              <label for="length">Length (ft)</label>
+              <input id="length" name="length" type="text" inputmode="decimal" placeholder="e.g. 24">
+            </div>
+            <div class="field">
+              <label for="city">City or marina</label>
+              <input id="city" name="city" type="text" placeholder="e.g. New Smyrna Beach">
             </div>
             <div class="field">
               <label for="service">Service needed</label>
               <select id="service" name="service">
                 <option>Not sure — advise me</option>
-                <option>Gelcoat Correction &amp; Oxidation Removal</option>
-                <option>Wash &amp; Protect Package</option>
-                <option>Teak Cleaning</option>
+                <option>Buff &amp; Shine</option>
+                <option>Wash &amp; Wax</option>
+                <option>Boat Wash</option>
+                <option>Oxidation Removal</option>
+                <option>Interior Detail</option>
+                <option>Teak</option>
                 <option>Ceramic Coating</option>
-                <option>Boat Care Club</option>
               </select>
             </div>
             <div class="field full">
-              <label for="message">Tell us about your boat</label>
+              <label for="photos">Boat photos <span class="muted" style="font-weight: 400;">(pick from your phone)</span></label>
+              <input id="photos" name="photos" type="file" accept="image/*" multiple>
+              <span class="sample-note">After your text or email app opens, attach your photos before sending — they can't go through the website automatically.</span>
+            </div>
+            <div class="field full">
+              <label for="message">Anything else</label>
               <textarea id="message" name="message" placeholder="Condition, where it's kept, what you'd like done, ideal timing…"></textarea>
             </div>
           </div>
-          <p style="margin-top: 1.4rem;"><button class="btn" type="submit">Build My Text Request</button></p>
-          <p class="form-note">This composes a text message to <a href="tel:+13863153633">(386) 315-3633</a> with your details — just hit send. Prefer to talk? Call the same number.</p>
-          <div id="quote-done" hidden style="margin-top: 1.4rem; padding: 1.4rem; border: 1px solid rgba(212,169,78,.4); border-radius: 12px; background: rgba(212,169,78,.07);">
-            <p style="font-weight: 700; color: var(--gold); margin-bottom: 0.8rem;">✓ Your request is ready — send it as a text:</p>
+          <p style="margin-top: 1.4rem;"><button class="btn" type="submit">Build My Request</button></p>
+          <p class="form-note">Text is fastest. <a href="tel:+13863153633">(386) 315-3633</a>. Or <a href="mailto:booking@showcaseboatdetailing.com">booking@showcaseboatdetailing.com</a>.</p>
+          <div id="quote-done" hidden style="margin-top: 1.4rem; padding: 1.4rem; border: 1px solid rgba(199,166,91,.4); border-radius: 12px; background: rgba(199,166,91,.07);">
+            <p style="font-weight: 700; color: var(--gold); margin-bottom: 0.8rem;">✓ Your request is ready — send it by text or email:</p>
             <p style="display: flex; gap: 0.8rem; flex-wrap: wrap;">
               <a class="btn" id="sms-link" href="#">Text (386) 315-3633</a>
-              <a class="btn btn-ghost" href="tel:+13863153633">Call instead</a>
+              <a class="btn btn-ghost" id="email-link" href="#">Email booking@</a>
             </p>
+            <p class="form-note" style="margin-top: 0.8rem; margin-bottom: 0;">Remember to attach your boat photos in the app before you hit send.</p>
           </div>
         </form>
       </div>
@@ -121,7 +137,7 @@
         <a class="brand" href="index.html" style="margin-bottom: 1rem;">
           <img class="brand-logo" src="assets/logo.jpg" alt="Showcase Boat Detailing logo">
         </a>
-        <p>Premium mobile boat detailing in Volusia County, FL. We come to your dock, home, or storage facility.</p>
+        <p>Mobile boat detailing in Volusia County, FL. We come to your dock, home, or storage facility.</p>
       </div>
       <div>
         <h4>Explore</h4>
@@ -133,8 +149,9 @@
       <div>
         <h4>Contact</h4>
         <a href="tel:+13863153633">(386) 315-3633</a>
-        <a href="https://showcasedetailingllc.com" target="_blank" rel="noopener">showcasedetailingllc.com</a>
-        <p>Serving Volusia County &amp; surrounding areas</p>
+        <a href="mailto:booking@showcaseboatdetailing.com">booking@showcaseboatdetailing.com</a>
+        <a href="https://showcaseboatdetailing.com">showcaseboatdetailing.com</a>
+        <p>Serving Volusia County, FL</p>
         <div class="social-row">
           <a href="https://instagram.com/showcasedetailingllc" target="_blank" rel="noopener">Instagram</a>
           <a href="https://facebook.com/showcasedetailing" target="_blank" rel="noopener">Facebook</a>
