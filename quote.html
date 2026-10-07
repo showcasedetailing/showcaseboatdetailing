@@ -40,8 +40,8 @@
 <section class="section section-dark" style="padding: 3.5rem 0;">
   <div class="wrap">
     <span class="kicker">Get a quote</span>
-    <h1>Send a few photos. We'll quote it real.</h1>
-    <p class="sub muted" style="margin-bottom: 0;">Fill this out and we'll reply with a firm price — usually within one business day.</p>
+    <h1>Send photos. Get a firm price.</h1>
+    <p class="sub muted" style="margin-bottom: 0;">Text is fastest. We reply with a number, usually the same day.</p>
   </div>
 </section>
 
@@ -53,23 +53,23 @@
           <div class="form-grid">
             <div class="field">
               <label for="name">Name</label>
-              <input id="name" name="name" type="text" required placeholder="Your name">
+              <input id="name" name="name" type="text" required >
             </div>
             <div class="field">
               <label for="phone">Phone</label>
-              <input id="phone" name="phone" type="tel" required placeholder="(386) 000-0000">
+              <input id="phone" name="phone" type="tel" required >
             </div>
             <div class="field full">
               <label for="email">Email</label>
-              <input id="email" name="email" type="email" placeholder="you@example.com">
+              <input id="email" name="email" type="email" >
             </div>
             <div class="field">
               <label for="make">Boat make &amp; model</label>
-              <input id="make" name="make" type="text" placeholder="e.g. 24' Sea Ray Sundancer">
+              <input id="make" name="make" type="text" placeholder="e.g. 23' Tidewater">
             </div>
             <div class="field">
               <label for="length">Length (ft)</label>
-              <input id="length" name="length" type="text" inputmode="decimal" placeholder="e.g. 24">
+              <input id="length" name="length" type="text" inputmode="decimal" placeholder="e.g. 23">
             </div>
             <div class="field">
               <label for="city">City or marina</label>
@@ -89,17 +89,12 @@
               </select>
             </div>
             <div class="field full">
-              <label for="photos">Boat photos <span class="muted" style="font-weight: 400;">(pick from your phone)</span></label>
-              <input id="photos" name="photos" type="file" accept="image/*" multiple>
-              <span class="sample-note">After your text or email app opens, attach your photos before sending — they can't go through the website automatically.</span>
-            </div>
-            <div class="field full">
               <label for="message">Anything else</label>
               <textarea id="message" name="message" placeholder="Condition, where it's kept, what you'd like done, ideal timing…"></textarea>
             </div>
           </div>
-          <p style="margin-top: 1.4rem;"><button class="btn" type="submit">Build My Request</button></p>
-          <p class="form-note">Text is fastest. <a href="tel:+13863153633">(386) 315-3633</a>. Or <a href="mailto:booking@showcaseboatdetailing.com">booking@showcaseboatdetailing.com</a>.</p>
+          <p style="margin-top: 1.4rem;"><button class="btn" type="submit">Text my quote.</button></p>
+          <p class="form-note">Or <a href="mailto:booking@showcaseboatdetailing.com">email booking@showcaseboatdetailing.com</a>.</p>
           <div id="quote-done" hidden style="margin-top: 1.4rem; padding: 1.4rem; border: 1px solid rgba(199,166,91,.4); border-radius: 12px; background: rgba(199,166,91,.07);">
             <p style="font-weight: 700; color: var(--gold); margin-bottom: 0.8rem;">✓ Your request is ready — send it by text or email:</p>
             <p style="display: flex; gap: 0.8rem; flex-wrap: wrap;">
@@ -113,10 +108,9 @@
       <div>
         <h3 style="font-family: var(--font-head); margin-bottom: 1rem;">For the most accurate quote, include:</h3>
         <ul class="check-list">
-          <li>Photos of the hull from a few angles</li>
-          <li>A close-up of any oxidation, scratches, or problem spots</li>
-          <li>Interior photos if you want interior work</li>
-          <li>Where the boat is kept (marina, dock, home, or storage facility)</li>
+          <li>A few photos of the hull</li>
+          <li>A close-up of any chalk, scratches, or rust</li>
+          <li>Where it sits: dock, lift, marina, or driveway</li>
         </ul>
         <div class="card" style="margin-top: 2rem;">
           <div class="card-body">
