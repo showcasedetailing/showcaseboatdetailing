@@ -57,7 +57,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 async function initGallery(grid) {
-  const filtersEl = document.getElementById("gallery-filters");
   const emptyEl = document.getElementById("gallery-empty");
   let items = [];
   try {
@@ -72,42 +71,20 @@ async function initGallery(grid) {
     if (emptyEl) emptyEl.hidden = false;
     return;
   }
-
-  const groups = ["All", ...new Set(items.map(i => i.group))];
-
-  function render(filter) {
-    grid.innerHTML = "";
-    const shown = items.filter(i => filter === "All" || i.group === filter);
-    shown.forEach((item) => {
-      const fig = document.createElement("figure");
-      fig.className = "g-item";
-      fig.tabIndex = 0;
-      const focus = item.focus ? ` style="object-position:${item.focus};"` : "";
-      fig.innerHTML = `
-        <img src="${item.src}" alt="${item.alt}" loading="lazy"${focus}>
-        <figcaption class="g-cap"><span>${item.service}</span><strong>${item.title}</strong></figcaption>`;
-      fig.addEventListener("click", () => openLightbox(shown, shown.indexOf(item)));
-      fig.addEventListener("keydown", (e) => {
-        if (e.key === "Enter") openLightbox(shown, shown.indexOf(item));
-      });
-      grid.appendChild(fig);
+  items.forEach((item) => {
+    const fig = document.createElement("figure");
+    fig.className = "g-item";
+    fig.tabIndex = 0;
+    const focus = item.focus ? ` style="object-position:${item.focus};"` : "";
+    fig.innerHTML = `
+      <img src="${item.src}" alt="${item.alt}" loading="lazy"${focus}>
+      <figcaption class="g-cap"><span>${item.service}</span><strong>${item.title}</strong></figcaption>`;
+    fig.addEventListener("click", () => openLightbox(items, items.indexOf(item)));
+    fig.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") openLightbox(items, items.indexOf(item));
     });
-  }
-
-  // Filter buttons
-  groups.forEach((g) => {
-    const btn = document.createElement("button");
-    btn.className = "filter-btn" + (g === "All" ? " active" : "");
-    btn.textContent = g;
-    btn.addEventListener("click", () => {
-      filtersEl.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-      render(g);
-    });
-    filtersEl.appendChild(btn);
+    grid.appendChild(fig);
   });
-
-  render("All");
 
   // ---- Lightbox ----
   const lb = document.getElementById("lightbox");
