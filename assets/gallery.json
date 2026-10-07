@@ -1,31 +1,35 @@
 [
   {
     "src": "assets/boat-01.jpg",
-    "group": "Exterior",
+    "group": "Interior",
     "title": "Center console cockpit",
-    "service": "Wash & Wax",
-    "alt": "Detailed cockpit of a white center console boat"
+    "service": "Boat Wash",
+    "alt": "Detailed cockpit of a white center console boat",
+    "focus": "50% 45%"
   },
   {
     "src": "assets/boat-02.jpg",
-    "group": "Exterior",
+    "group": "Interior",
     "title": "Transom & outboard",
-    "service": "Wash & Wax",
-    "alt": "Clean transom and outboard motor after detailing"
+    "service": "Boat Wash",
+    "alt": "Clean transom and outboard motor after detailing",
+    "focus": "50% 45%"
   },
   {
     "src": "assets/boat-03.jpg",
-    "group": "Interior & Helm",
+    "group": "Interior",
     "title": "Helm station",
-    "service": "Wash & Wax",
-    "alt": "Boat helm with wheel and gauges, detailed"
+    "service": "Boat Wash",
+    "alt": "Boat helm with wheel and gauges, detailed",
+    "focus": "50% 45%"
   },
   {
     "src": "assets/boat-04.jpg",
-    "group": "Exterior",
+    "group": "Interior",
     "title": "Bow deck",
-    "service": "Wash & Wax",
-    "alt": "Spotless bow deck of a center console boat"
+    "service": "Boat Wash",
+    "alt": "Spotless bow deck of a center console boat",
+    "focus": "50% 45%"
   },
   {
     "src": "assets/boat-05.jpg",
@@ -33,14 +37,15 @@
     "title": "Blue-hull center console",
     "service": "Buff & Shine",
     "alt": "Blue and white center console boat with glossy hull",
-    "focus": "50% 40%"
+    "focus": "50% 45%"
   },
   {
     "src": "assets/boat-06.jpg",
     "group": "Exterior",
     "title": "Center console on the trailer",
     "service": "Buff & Shine",
-    "alt": "Pale yellow center console boat on a trailer"
+    "alt": "Pale yellow center console boat on a trailer",
+    "focus": "50% 40%"
   },
   {
     "src": "assets/boat-07.jpg",
@@ -60,80 +65,91 @@
   },
   {
     "src": "assets/boat-09.jpg",
-    "group": "Close-ups",
+    "group": "Interior",
     "title": "Mirror-gloss topsides",
-    "service": "Wash & Wax",
-    "alt": "Close-up of polished white topsides with mirror gloss"
+    "service": "Boat Wash",
+    "alt": "Close-up of polished white topsides with mirror gloss",
+    "focus": "50% 45%"
   },
   {
     "src": "assets/boat-10.jpg",
     "group": "Exterior",
     "title": "Strike — teal hull",
     "service": "Buff & Shine",
-    "alt": "Teal Strike boat hull with restored shine"
+    "alt": "Teal Strike boat hull with restored shine",
+    "focus": "50% 45%"
   },
   {
     "src": "assets/boat-11.jpg",
     "group": "Exterior",
     "title": "Yamaha at the dock",
-    "service": "Boat Wash",
-    "alt": "White Yamaha boat floating at the dock"
+    "service": "Wash & Wax",
+    "alt": "White Yamaha boat floating at the dock",
+    "focus": "50% 40%"
   },
   {
     "src": "assets/boat-12.jpg",
-    "group": "Close-ups",
+    "group": "Exterior",
     "title": "Deep gloss finish",
     "service": "Ceramic",
-    "alt": "Close-up of dark glossy boat finish"
+    "alt": "Close-up of dark glossy boat finish",
+    "focus": "50% 50%"
   },
   {
     "src": "assets/boat-13.jpg",
-    "group": "Interior & Helm",
+    "group": "Interior",
     "title": "Cockpit seating refresh",
-    "service": "Wash & Wax",
-    "alt": "Boat cockpit seating cleaned and refreshed"
+    "service": "Boat Wash",
+    "alt": "Boat cockpit seating cleaned and refreshed",
+    "focus": "50% 45%"
   },
   {
     "src": "assets/boat-14.jpg",
     "group": "Exterior",
     "title": "Grady-White dual outboard",
     "service": "Wash & Wax",
-    "alt": "White Grady-White boat with twin outboards, fully detailed"
+    "alt": "White Grady-White boat with twin outboards, fully detailed",
+    "focus": "50% 35%"
   },
   {
     "src": "assets/boat-15.jpg",
     "group": "Exterior",
     "title": "Grady-White stern quarter",
     "service": "Wash & Wax",
-    "alt": "Stern view of detailed Grady-White boat"
+    "alt": "Stern view of detailed Grady-White boat",
+    "focus": "50% 35%"
   },
   {
     "src": "assets/boat-16.jpg",
-    "group": "Interior & Helm",
+    "group": "Interior",
     "title": "Console & seating",
-    "service": "Wash & Wax",
-    "alt": "Boat console and seating area after interior detailing"
+    "service": "Boat Wash",
+    "alt": "Boat console and seating area after interior detailing",
+    "focus": "50% 45%"
   },
   {
     "src": "assets/boat-17.jpg",
     "group": "Exterior",
     "title": "Hull side, dialed in",
     "service": "Buff & Shine",
-    "alt": "White boat hull side with clean glossy finish"
+    "alt": "White boat hull side with clean glossy finish",
+    "focus": "50% 45%"
   },
   {
     "src": "assets/boat-18.jpg",
-    "group": "Interior & Helm",
+    "group": "Interior",
     "title": "Helm & windshield",
-    "service": "Wash & Wax",
-    "alt": "Boat helm with windshield, cleaned inside and out"
+    "service": "Boat Wash",
+    "alt": "Boat helm with windshield, cleaned inside and out",
+    "focus": "50% 45%"
   },
   {
     "src": "assets/boat-19.jpg",
     "group": "Exterior",
     "title": "Key West — port side",
     "service": "Buff & Shine",
-    "alt": "Key West boat hull side on trailer"
+    "alt": "Key West boat hull side on trailer",
+    "focus": "50% 40%"
   },
   {
     "src": "assets/boat-20.jpg",
@@ -153,65 +169,66 @@
   },
   {
     "src": "assets/boat-22.jpg",
-    "group": "Interior & Helm",
+    "group": "Interior",
     "title": "Hardware detail",
-    "service": "Wash & Wax",
-    "alt": "Close-up of cleaned seat hinge and upholstery"
+    "service": "Boat Wash",
+    "alt": "Close-up of cleaned seat hinge and upholstery",
+    "focus": "50% 45%"
   },
   {
     "src": "assets/boat-23.jpg",
-    "group": "Close-ups",
+    "group": "Exterior",
     "title": "Stripe & shine",
     "service": "Buff & Shine",
-    "alt": "Close-up of polished hull stripe and glossy finish"
+    "alt": "Close-up of polished hull stripe and glossy finish",
+    "focus": "50% 50%"
   },
   {
     "src": "assets/boat-24.jpg",
-    "group": "Close-ups",
+    "group": "Exterior",
     "title": "Waterline gloss",
     "service": "Buff & Shine",
-    "alt": "Glossy waterline and hull stripe close-up"
+    "alt": "Glossy waterline and hull stripe close-up",
+    "focus": "50% 45%"
   },
   {
     "src": "assets/boat-25.jpg",
-    "group": "Interior & Helm",
+    "group": "Interior",
     "title": "Hatch & hardware",
-    "service": "Wash & Wax",
-    "alt": "Boat hatch and hardware cleaned and detailed"
+    "service": "Boat Wash",
+    "alt": "Boat hatch and hardware cleaned and detailed",
+    "focus": "50% 45%"
   },
   {
     "src": "assets/boat-26.jpg",
-    "group": "Close-ups",
+    "group": "Exterior",
     "title": "Cream hull, hand-finished",
     "service": "Buff & Shine",
-    "alt": "Close-up of cream boat hull with hand-finished gloss"
+    "alt": "Close-up of cream boat hull with hand-finished gloss",
+    "focus": "50% 45%"
   },
   {
     "src": "assets/boat-27.jpg",
-    "group": "Close-ups",
+    "group": "Exterior",
     "title": "Gloss topsides",
     "service": "Wash & Wax",
-    "alt": "White topsides with clean glossy finish"
+    "alt": "White topsides with clean glossy finish",
+    "focus": "50% 45%"
   },
   {
     "src": "assets/boat-28.jpg",
-    "group": "Interior & Helm",
+    "group": "Interior",
     "title": "Simrad helm",
-    "service": "Wash & Wax",
-    "alt": "Center console helm with Simrad electronics, detailed"
-  },
-  {
-    "src": "assets/boat-29.jpg",
-    "group": "Exterior",
-    "title": "Bow, ready to launch",
     "service": "Boat Wash",
-    "alt": "White boat bow deck ready for the water"
+    "alt": "Center console helm with Simrad electronics, detailed",
+    "focus": "50% 45%"
   },
   {
     "src": "assets/boat-30.jpg",
     "group": "Exterior",
     "title": "Strike — transom",
-    "service": "Buff & Shine",
-    "alt": "Teal Strike boat transom on trailer, polished"
+    "service": "Wash & Wax",
+    "alt": "Teal Strike boat transom on trailer, polished",
+    "focus": "50% 40%"
   }
 ]
