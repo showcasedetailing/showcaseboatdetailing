@@ -123,6 +123,7 @@ a { color: inherit; }
 }
 .card:hover { transform: translateY(-6px); box-shadow: var(--shadow); border-color: rgba(199, 166, 91, 0.45); }
 .card-img { height: 200px; background-size: cover; background-position: center; background-color: #000; }
+.photo-credit { display: block; font-size: 0.75rem; color: var(--muted); opacity: 0.8; padding: 0.4rem 1.5rem 0; }
 .card-body { padding: 1.5rem; display: flex; flex-direction: column; gap: 0.6rem; flex: 1; }
 .card-body h3 { font-family: var(--font-head); font-size: 1.2rem; color: #fff; }
 .card-body p { color: var(--muted); font-size: 0.95rem; flex: 1; }
