@@ -1,43 +1,11 @@
 [
   {
-    "src": "assets/boat-03.jpg",
-    "group": "Interior",
-    "title": "Helm station",
-    "service": "Boat Wash",
-    "alt": "Boat helm with wheel and gauges, detailed",
-    "focus": "50% 45%"
-  },
-  {
-    "src": "assets/boat-04.jpg",
-    "group": "Interior",
-    "title": "Bow deck",
-    "service": "Boat Wash",
-    "alt": "Spotless bow deck of a center console boat",
-    "focus": "50% 45%"
-  },
-  {
     "src": "assets/boat-08.jpg",
     "group": "Exterior",
     "title": "Blue hull, full gloss",
     "service": "Buff & Shine",
     "alt": "Blue hull center console showing deep gloss reflections",
     "focus": "50% 45%"
-  },
-  {
-    "src": "assets/boat-10.jpg",
-    "group": "Exterior",
-    "title": "Strike — teal hull",
-    "service": "Buff & Shine",
-    "alt": "Teal Strike boat hull with restored shine",
-    "focus": "50% 45%"
-  },
-  {
-    "src": "assets/boat-11.jpg",
-    "group": "Exterior",
-    "title": "Yamaha at the dock",
-    "service": "Wash & Wax",
-    "alt": "White Yamaha boat floating at the dock",
-    "focus": "50% 40%"
   },
   {
     "src": "assets/boat-15.jpg",
@@ -48,11 +16,11 @@
     "focus": "50% 35%"
   },
   {
-    "src": "assets/boat-28.jpg",
-    "group": "Interior",
-    "title": "Simrad helm",
-    "service": "Boat Wash",
-    "alt": "Center console helm with Simrad electronics, detailed",
+    "src": "assets/boat-10.jpg",
+    "group": "Exterior",
+    "title": "Strike — teal hull",
+    "service": "Buff & Shine",
+    "alt": "Teal Strike boat hull with restored shine",
     "focus": "50% 45%"
   },
   {
@@ -64,12 +32,12 @@
     "focus": "50% 40%"
   },
   {
-    "src": "assets/boat-31.jpg",
+    "src": "assets/boat-11.jpg",
     "group": "Exterior",
-    "title": "Yamaha outboard, detailed",
-    "service": "Boat Wash",
-    "alt": "Close-up of a detailed blue Yamaha outboard motor",
-    "focus": "50% 45%"
+    "title": "Yamaha at the dock",
+    "service": "Wash & Wax",
+    "alt": "White Yamaha boat floating at the dock",
+    "focus": "50% 40%"
   },
   {
     "src": "assets/boat-32.jpg",
@@ -80,35 +48,19 @@
     "focus": "50% 45%"
   },
   {
-    "src": "assets/boat-33.jpg",
+    "src": "assets/boat-28.jpg",
     "group": "Interior",
-    "title": "Helm with Garmin electronics",
+    "title": "Simrad helm",
     "service": "Boat Wash",
-    "alt": "Clean center console helm with Garmin electronics",
+    "alt": "Center console helm with Simrad electronics, detailed",
     "focus": "50% 45%"
   },
   {
-    "src": "assets/boat-34.jpg",
+    "src": "assets/boat-04.jpg",
     "group": "Interior",
-    "title": "Stern deck and outboard",
+    "title": "Bow deck",
     "service": "Boat Wash",
-    "alt": "Boat stern deck with deck pads and Yamaha outboard, detailed",
-    "focus": "50% 45%"
-  },
-  {
-    "src": "assets/boat-35.jpg",
-    "group": "Exterior",
-    "title": "Twin Yamaha outboards",
-    "service": "Boat Wash",
-    "alt": "Twin white Yamaha outboards on a clean transom",
-    "focus": "50% 45%"
-  },
-  {
-    "src": "assets/boat-36.jpg",
-    "group": "Interior",
-    "title": "Cockpit with T-top",
-    "service": "Boat Wash",
-    "alt": "Spotless center console cockpit with T-top under cover",
+    "alt": "Spotless bow deck of a center console boat",
     "focus": "50% 45%"
   }
 ]

@@ -334,6 +334,8 @@ a { color: inherit; }
   padding: 0.35rem 1rem; border-radius: 8px;
 }
 .ba-fig.ba-wide { aspect-ratio: 16 / 10; }
+.gold-link { color: var(--gold); font-weight: 600; }
+.gold-link:hover { color: var(--gold-bright); }
 .ba-tag.ba-tag-right { left: auto; right: 1rem; }
 .ba-caption { text-align: center; color: var(--muted); margin-top: 1rem; font-size: 1rem; }
 .ba-caption strong { color: #fff; }

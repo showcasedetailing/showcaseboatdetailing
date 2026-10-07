@@ -78,7 +78,7 @@ async function initGallery(grid) {
     const focus = item.focus ? ` style="object-position:${item.focus};"` : "";
     fig.innerHTML = `
       <img src="${item.src}" alt="${item.alt}" loading="lazy"${focus}>
-      <figcaption class="g-cap"><span>${item.service}</span><strong>${item.title}</strong></figcaption>`;
+      <figcaption class="g-cap"><strong>${item.title}</strong></figcaption>`;
     fig.addEventListener("click", () => openLightbox(items, items.indexOf(item)));
     fig.addEventListener("keydown", (e) => {
       if (e.key === "Enter") openLightbox(items, items.indexOf(item));
