@@ -94,6 +94,7 @@ a { color: inherit; }
 }
 .hero h1 .gold { color: var(--gold); }
 .hero p.lead { font-size: 1.15rem; color: #C8C8C8; margin-bottom: 2rem; max-width: 34rem; }
+.hero-trust { color: var(--muted); font-size: 0.95rem; margin: 0 0 1.6rem; letter-spacing: 0.02em; }
 .hero-cta { display: flex; gap: 1rem; flex-wrap: wrap; }
 .hero-badges { display: flex; gap: 1.8rem; margin-top: 2.5rem; flex-wrap: wrap; }
 .hero-badges div { font-size: 0.92rem; color: var(--muted); }
