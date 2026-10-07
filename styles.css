@@ -336,6 +336,8 @@ a { color: inherit; }
 .ba-fig.ba-wide { aspect-ratio: 16 / 10; }
 .gold-link { color: var(--gold); font-weight: 600; }
 .gold-link:hover { color: var(--gold-bright); }
+.ig-link { display: inline-flex; align-items: center; gap: 0.5rem; }
+.ig-link svg { flex: none; }
 .ba-tag.ba-tag-right { left: auto; right: 1rem; }
 .ba-caption { text-align: center; color: var(--muted); margin-top: 1rem; font-size: 1rem; }
 .ba-caption strong { color: #fff; }
