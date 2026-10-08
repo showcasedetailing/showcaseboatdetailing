@@ -30,8 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
         `Name: ${data.get("name")}`,
         `My phone: ${data.get("phone")}`,
         data.get("email") ? `Email: ${data.get("email")}` : null,
-        `Boat: ${data.get("make") || "—"}`,
-        data.get("length") ? `Length: ${data.get("length")} ft` : null,
+        `Boat: ${data.get("boat") || "—"}`,
         data.get("city") ? `City/marina: ${data.get("city")}` : null,
         `Service: ${data.get("service")}`,
         data.get("message") ? `Details: ${data.get("message")}` : null
