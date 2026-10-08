@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
         `My phone: ${data.get("phone")}`,
         data.get("email") ? `Email: ${data.get("email")}` : null,
         `Boat: ${data.get("boat") || "—"}`,
+        `Gelcoat: ${data.get("gelcoat")}`,
         data.get("city") ? `City/marina: ${data.get("city")}` : null,
         `Service: ${data.get("service")}`,
         data.get("message") ? `Details: ${data.get("message")}` : null
