@@ -1,1 +1,1 @@
-{"rewrites":[{"destination":"/privacy.html","source":"/privacy"}]}
+{"rewrites":[{"destination":"/privacy.html","source":"/privacy"},{"destination":"/quote.html","source":"/quote"},{"destination":"/services.html","source":"/services"},{"destination":"/gallery.html","source":"/gallery"}]}
